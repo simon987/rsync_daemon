@@ -1,0 +1,3 @@
+# Example config
+
+"/work/" /home/test/test_/

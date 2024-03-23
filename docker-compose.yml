@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  rsync_daemon:
+    build:
+      context: .
+    volumes:
+      - /data/:/data/
+      - ./config.txt:/config.txt:ro
