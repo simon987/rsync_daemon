@@ -29,6 +29,7 @@ if __name__ == "__main__":
             "rsync",
             "-ra",
             "--delete",
+            " --delete-excluded",
             "--stats",
         ]
 
